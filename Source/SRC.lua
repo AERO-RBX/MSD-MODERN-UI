@@ -5,7 +5,7 @@ local rchar = chars:sub(rint, rint) -- Pick it
 
 local _New_ = Instance.new;
 
-local Lib = _New_("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+local Lib = _New_("ScreenGui", game.CoreGui);
 Lib.Name = rint ;
 
 local lib = {TabCount = 0}
