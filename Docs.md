@@ -7,7 +7,7 @@ local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AERO-RBX/
 local ui = lib:Init({
 	Description = "MSD | PREVIEW",
 	Toggle_Bind = Enum.KeyCode.Z,
-	ThemeColor = Color3.fromRGB(85, 0, 255)
+	ThemeColor = Color3.fromRGB(85, 0, 255) -- This is what the gradients are set to !!!
 })
 ```
 # Make a tab
